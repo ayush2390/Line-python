@@ -1,4 +1,6 @@
 from matplotlib import pyplot as plt
+import warnings
+warnings.filterwarnings('ignore')
 x1=[1,2,3]
 y1=[2,4,1]
 plt.plot(x1,y1,linewidth=2.0,label="line1")
